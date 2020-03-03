@@ -1,9 +1,16 @@
-<!doctype html>
 
+<link href="CSS/Master.css" rel="stylesheet" type="text/css" />
+<link href="CSS/Menu.css" rel="stylesheet" type="text/css" />
 <meta charset="utf-8">	
 
 <!-- jQuery -->
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- MenuMaker Plugin -->
+<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js"></script>
+
+<!-- Icon Library -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <!--Bootstrap-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,5 +20,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1", user-scalable=no>
-
 

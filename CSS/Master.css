@@ -50,6 +50,30 @@ body {
 	color: white;
 }
 
+#NavigationBar {
+	background-color: rgb(0,0,0);
+}
+
+.icons {
+	color: white;
+}
+
+#nav-link2 a{
+	font-family: Pirates;
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+	margin-top: 0.35em;
+	background-color: black;
+	margin-right: 1em;
+	margin-top: 0em;
+}
+#nav-link2 a:hover{
+	color: gray;
+	text-decoration: none;
+}
+
+/*Picture gallery on home page*/
 #CarouselControls {
 	max-width: 70em;
 	max-height: 60em;
