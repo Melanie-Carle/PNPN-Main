@@ -1,34 +1,57 @@
-
 /*Pieces of Eight Font*/
 @font-face {
 	font-family:Pirates; 
-	src: url("/CSS/Pieces of Eight Font/Pieces of Eight.ttf");
+	src: url("Pieces of Eight Font/Pieces of Eight.ttf");
 }
 /*Treasure Map Deadhand Font*/
 @font-face {
 	font-family:TreasureMap ;
-	src: url("/CSS/Treasure Map Font/TreasureMapDeadhand.ttf")
+	src: url("Treasure Map Font/TreasureMapDeadhand.ttf")
+}
+
+body {
+	background: 
+	url(styles/Dark_Wood.jfif);
+	background-size: 100%;
+
 }
 
 /*Navigation bar box*/
-.NavBar {
+#NavBar {
 	background-color: black;
-	overflow: hidden;
-	position: relative;
 	max-height: auto;
 	max-width: auto;
 	height: 4em;
 }
 /*Navigation bar header*/
-.NavBarName {
+#NavBarName {
 	font-family: TreasureMap;
+	font-size: 2em;
 	color: white;
-	float: left;
 }
+
 /*Navigation bar links*/
-.NavBarLinks a{
-	font-family: pirates;
+#NavBarLinks a{
+	font-family: Pirates;
+	font-size: 1.2em;
 	color: white;
-	float:right;
-	display: inline;
+	text-decoration: none;
+	margin-top: 0.35em;
+	background-color: black;
+	margin-right: 1em;
+}
+#NavBarLinks a:hover{
+	color: gray;
+	text-decoration: none;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	background-color: black;
+	color: white;
+}
+
+#CarouselControls {
+	max-width: 70em;
+	max-height: 60em;
+	margin-top: 2em;
 }
