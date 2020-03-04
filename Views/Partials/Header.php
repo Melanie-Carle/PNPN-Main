@@ -15,9 +15,9 @@
 	     		 			Events
 	      				</a>
 					    <div class="dropdown-menu">
-					    	<a class="dropdown-item" href="RoT.php">Roast of Tortuga</a>
-					        <a class="dropdown-item" href="#">Port Nassau</a>
-					        <a class="dropdown-item" href="#">Tortuga Nights</a>
+					    	<a class="dropdown-item" href="#">Roast of Tortuga</a>
+					        <a class="dropdown-item" href="PortNassau.php">Port Nassau</a>
+					        <a class="dropdown-item" href="TortugaNights.php">Tortuga Nights</a>
 					        <a class="dropdown-item" href="#">Port in the Storm</a>
 					    </div>
 	    			</li>
@@ -98,8 +98,8 @@
 	        			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Events</a>
 	        			<div class="dropdown-menu" aria-labelledby="collapsibleNavbar">
 	        				<a class="dropdown-item" href="#">Roast of Tortuga</a>
-	        				<a class="dropdown-item" href="#">Port Nassau</a>
-	        				<a class="dropdown-item" href="#">Tortuga Nights</a>
+	        				<a class="dropdown-item" href="PortNassau.php">Port Nassau</a>
+	        				<a class="dropdown-item" href="TortugaNights.php">Tortuga Nights</a>
 	        				<a class="dropdown-item" href="#">Port in the Storm</a>
 	        			</div>
 	      			</li>
