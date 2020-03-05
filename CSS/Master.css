@@ -18,26 +18,26 @@ body {
 
 /*Navigation bar box*/
 #NavBar {
-	background-color: black;
+	background-color: rgba(0,0,0,0.9);
 	max-height: auto;
 	max-width: auto;
-	height: 4em;
+	height: 3.5em;
 }
 /*Navigation bar header*/
 #NavBarName {
-	font-family: TreasureMap;
-	font-size: 2em;
+	font-family: Pirates;
+	font-size: 1.6em;
 	color: white;
 }
 
 /*Navigation bar links*/
 #NavBarLinks a{
 	font-family: Pirates;
-	font-size: 1.2em;
+	font-size: 1em;
 	color: white;
 	text-decoration: none;
 	margin-top: 0.35em;
-	background-color: black;
+	background-color: none;
 	margin-right: 1em;
 }
 #NavBarLinks a:hover{
@@ -46,12 +46,12 @@ body {
 }
 
 .navbar-nav > li > .dropdown-menu {
-	background-color: black;
+	background-color: rgba(0,0,0,0.9);
 	color: white;
 }
 
 #NavigationBar {
-	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
 }
 
 .icons {
@@ -60,11 +60,11 @@ body {
 
 #nav-link2 a{
 	font-family: Pirates;
-	font-size: 1.2em;
+	font-size: 1em;
 	color: white;
 	text-decoration: none;
 	margin-top: 0.35em;
-	background-color: black;
+	background-color: rgba(0,0,0,0.9);
 	margin-right: 1em;
 	margin-top: 0em;
 }
@@ -79,3 +79,71 @@ body {
 	max-height: 60em;
 	margin-top: 2em;
 }
+
+/*Event Pages*/
+#CarouselControlsEventPage {
+	max-width: 60em;
+	max-height: 35em;
+	margin-top: 0.5em;
+	margin-left: 1em;
+}
+
+.Port {
+	font-family: Pirates;
+	font-size: 1.3em;
+	color: white;
+	margin-top: 0.2em;
+}
+
+.EventLocation {
+	font-family: Pirates;
+	font-size: 1.3em;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	width: 90%;
+	height: 4em;
+	border:0.2em inset darkred;
+	padding-top: 0.25em;
+	text-align: center;
+}
+
+
+.Countdown {
+	font-family: Pirates;
+	font-size: 1.3em;
+	color: white;
+	margin-top: 0.2em;
+}
+
+#CountdownBox {
+	background-color: rgba(0,0,0,0.8);
+	width: 90%;
+	height: 2.5em;
+	font-size: 1.3em;
+	font-family: Pirates;
+	color: white;
+	border:0.2em inset darkred;
+	padding-top: 0.25em;
+	text-align: center;
+
+}
+
+.EventNavigationTitle {
+	font-family: Pirates;
+	font-size: 1.3em;
+	color: white;
+	margin-top: 0.2em;
+}
+
+.EventNavigation {
+	font-family: Pirates;
+	font-size: 1.2em;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	width: 90%;
+	height: 30em;
+	border:0.2em inset darkred;
+	padding-top: 0.3em;
+	
+}
+

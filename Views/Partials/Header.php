@@ -15,7 +15,6 @@
 	     		 			Events
 	      				</a>
 					    <div class="dropdown-menu">
-					    	<a class="dropdown-item" href="#">Roast of Tortuga</a>
 					        <a class="dropdown-item" href="PortNassau.php">Port Nassau</a>
 					        <a class="dropdown-item" href="TortugaNights.php">Tortuga Nights</a>
 					        <a class="dropdown-item" href="#">Port in the Storm</a>
@@ -64,6 +63,9 @@
 					        <a class="dropdown-item" href="#">Vendors</a>
 					    </div>
 	    			</li>
+	    			<li class="nav-item">
+	  					<a class="nav-link" href="index.php">Triple Key</a>
+					</li>
 	    		</ul>
 	    	</div>
 		</nav>
@@ -75,7 +77,7 @@
 	<div class="header"></div>
 	<div class="d-xl-none"> 
 		<nav class="navbar" id="NavigationBar">
-			<div class ="navbar-header" style="font-family: TreasureMap; font-size: 2em; color: white">
+			<div class ="navbar-header" style="font-family:Pirates; font-size: 1.6em; color: white">
 				Legacy Bay Events
 			</div>
 
@@ -97,7 +99,6 @@
 	      			<li class="nav-item dropdown" id="nav-link2">
 	        			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Events</a>
 	        			<div class="dropdown-menu" aria-labelledby="collapsibleNavbar">
-	        				<a class="dropdown-item" href="#">Roast of Tortuga</a>
 	        				<a class="dropdown-item" href="PortNassau.php">Port Nassau</a>
 	        				<a class="dropdown-item" href="TortugaNights.php">Tortuga Nights</a>
 	        				<a class="dropdown-item" href="#">Port in the Storm</a>
@@ -133,6 +134,9 @@
 	        				<a class="dropdown-item" href="#">Volunteer</a>
 	        				<a class="dropdown-item" href="#">Vendors</a>
 	        			</div>
+	      			</li>
+	      			<li class="nav-item active" id="nav-link2">
+	        			<a class="nav-link" href="index.php">Triple Key</a>
 	      			</li>
 	    		</ul>
 	  		</div>
