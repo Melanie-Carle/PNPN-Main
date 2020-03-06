@@ -12,15 +12,84 @@
 	<body>
 		<div class="container-flow">
 			<div class = "row">
+				<div class="col-xl d-flex flex-column" id="EventBanner">
 
-				<!--Left Column-->
-				<div class="col-xl-9 d-flex flex-column" id="EventLeftColumn">
+					<!--Event Banner-->
+					<img class="mx-auto d-block" src="CSS/styles/PortNassauBanner.png" style="margin-top: 0.5em; width: 98%; height: auto; overflow: hidden;">
 
-					<!--Page Banner-->
-					<img class="mx-auto d-block" src="CSS/styles/PortNassauBanner.png" style="margin-top: 0.5em; width: 90%; height: auto;">
+				</div>
+			</div>
+
+			<!--Left Navigation Column-->
+			<div class = "row">
+				<div class="col-xl-3 d-flex flex-column" id="EventLeftColumn">
+					<div class = "justify-content-center">
+
+						<!--Countdown-->
+						<div class="Countdown">Countdown</div>
+						<div class="col d-flex flex-column">
+							<div id="CountdownBox">
+								<div>
+									<div id="NassauEventCountdown"></div>
+								</div>
+							</div>
+						</div>
+						<script>
+							// Set the date we're counting down to
+							var countDownDate = new Date("July 16, 2020 08:00:").getTime();
+
+							// Update the count down every 1 second
+							var x = setInterval(function() {
+
+							  // Get today's date and time
+							  var now = new Date().getTime();
+
+							  // Find the distance between now and the count down date
+							  var distance = countDownDate - now;
+
+							  // Time calculations for days, hours, minutes and seconds
+							  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+							  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+							  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+							  // Display the result in the element with id=""
+							  document.getElementById("NassauEventCountdown").innerHTML = days + " days  " + hours + " hours  "
+							  + minutes + " min";
+
+							  // If the count down is finished, write some text
+							  if (distance < 0) {
+							    clearInterval(x);
+							    document.getElementById("NassauEventCountdown").innerHTML = "It's Time!";
+							  }
+							}, 1000);
+						</script>
+
+						<!--Navigation-->
+						<div class="EventNavigationTitle">Navigation</div>
+						<div class="col d-flex flex-column">
+							<div class = "EventNavigation">
+								<div style="font-size: 1.1em; padding-left: 0.6em; color: rgb(128,128,128);">Registration</div>
+								<div style="font-size: 1.1em; padding-left: 3em;">Pre-Registration</div>
+								<div style="font-size: 1.1em; padding-left: 3em;">Private Biffie</div>
+								<div style="font-size: 1.1em; padding-left: 3em; padding-bottom: 0.5em;">Merchants</div>
+
+								<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Camping</div>
+								<div style="font-size: 1.1em; padding-left: 3em;">Map</div>
+								<div style="font-size: 1.1em; padding-left: 3em; padding-bottom: 0.5em;">Land Grants</div>
+
+								<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Event Program</div>
+
+								<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Volunteering</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Right Information Column-->
+				<div class="col-xl-9 d-flex flex-column" id="EventRightColumn">
 
 					<!--Slide Show-->
-					<div class = "mx-auto d-block">
+					<div class = "d-block">
 						<div id="CarouselControlsEventPage" class="carousel slide" data-ride="carousel">
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
@@ -37,96 +106,29 @@
 						  </a>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
 
-					<!--Column within the left side column-->
-					<div class="row">
+		<div class="container-flow">
+			<div class = "row">
 
-						<!--Defender and other stuff-->
-						<div class="col-md">
-
-						</div>
-
-						<!--Blog/News Updates-->
-						<div class="col-md">
-
-						</div>
-					</div>
+				<!--Defender of Nassau and other stuff-->
+				<div class="col-md d-flex flex-column" id="DefenderofNassau">
+					<div class="Defender">Defender of Nassau</div>
+					<div class="DefenderComp">Contenders coming soon!</div>
+				</div>
+			</div>
+		</div>
 
 				</div>
 
-
-				<!--Right Column-->
-				<div class="col-xl-3 d-flex flex-column" id="EventRightColumn">
-
-					<!--Event Location-->
-					<div class="Port">Port</div>
-						<div class="col d-flex flex-column">
-							<div class = "EventLocation">
-								<div>Cheadle Lake Park</div>
-								<div>Lebanon, OR</div>
-							</div>
-						</div>
-
-					<!--Countdown-->
-					<div class="Countdown">Countdown</div>
-					<div class="col d-flex flex-column">
-						<div id="CountdownBox">
-							<div>
-								<div id="NassauEventCountdown"></div>
-							</div>
-						</div>
-					</div>
-					<script>
-						// Set the date we're counting down to
-						var countDownDate = new Date("July 16, 2020 08:00:").getTime();
-
-						// Update the count down every 1 second
-						var x = setInterval(function() {
-
-						  // Get today's date and time
-						  var now = new Date().getTime();
-
-						  // Find the distance between now and the count down date
-						  var distance = countDownDate - now;
-
-						  // Time calculations for days, hours, minutes and seconds
-						  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-						  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-						  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-
-						  // Display the result in the element with id=""
-						  document.getElementById("NassauEventCountdown").innerHTML = days + "d " + hours + "h "
-						  + minutes + "m ";
-
-						  // If the count down is finished, write some text
-						  if (distance < 0) {
-						    clearInterval(x);
-						    document.getElementById("NassauEventCountdown").innerHTML = "It's Time!";
-						  }
-						}, 1000);
-					</script>
-
-					<!--Navigation-->
-					<div class="EventNavigationTitle">Navigation</div>
-					<div class="col d-flex flex-column">
-						<div class = "EventNavigation">
-							<div style="font-size: 1.1em; padding-left: 0.6em; color: red">Registration</div>
-							<div style="font-size: 1.1em; padding-left: 3em;">Pre-Registration</div>
-							<div style="font-size: 1.1em; padding-left: 3em;">Private Biffie</div>
-							<div style="font-size: 1.1em; padding-left: 3em; padding-bottom: 0.5em;">Merchants</div>
-
-							<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em; color: red">Camping</div>
-							<div style="font-size: 1.1em; padding-left: 3em;">Map</div>
-							<div style="font-size: 1.1em; padding-left: 3em; padding-bottom: 0.5em;">Land Grants</div>
-
-							<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em;">Event Program</div>
-
-							<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em;">Volunteering</div>
-
-						</div>
-					</div>
+				<!--Blog-->
+				<div class="row">
 
 				</div>
+
+			</div>
 
 
 			</div>
