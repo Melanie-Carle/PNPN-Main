@@ -15,7 +15,7 @@
 		<div class = "container-flow">
 			<div class = "d-flex">
 				<div class="row">
-					<div class = "col-xl-8 d-flex">
+					<div class = "col-xl-9 d-flex">
 						<div id="CarouselControls" class="carousel slide" data-ride="carousel">
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
@@ -32,7 +32,7 @@
 						  </a>
 						</div>
 					</div>
-					<div class="col-xl-4 d-flex flex-column" id="AboutBoxHome">
+					<div class="col-xl-3 d-flex" id="AboutBoxHome">
 						<div class="AboutUs">Legacy Bay</div>
 					</div>
 				</div>

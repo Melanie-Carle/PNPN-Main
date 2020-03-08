@@ -21,19 +21,19 @@ body {
 	background-color: rgba(0,0,0,0.9);
 	max-height: auto;
 	max-width: auto;
-	height: 3.5em;
+	height: 4em;
 }
 /*Navigation bar header*/
 #NavBarName {
 	font-family: Pirates;
-	font-size: 1.6em;
+	font-size: 4em;
 	color: white;
 }
 
 /*Navigation bar links*/
 #NavBarLinks a{
 	font-family: Pirates;
-	font-size: 1em;
+	font-size: 1.2em;
 	color: white;
 	text-decoration: none;
 	margin-top: 0.35em;
@@ -81,8 +81,9 @@ body {
 }
 
 #AboutBoxHome {
-	max-width: 70%;
+	width: 70%;
 	background-color: rgba(0,0,0,0.8);
+	margin-top: 2em;
 
 }
 
@@ -102,17 +103,17 @@ body {
 
 .Countdown {
 	font-family: Pirates;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	color: white;
 	margin-top: 0.2em;
-	margin-left: 1.9em;
+	margin-left: 2.4em;
 }
 
 #CountdownBox {
 	background-color: rgba(0,0,0,0.8);
 	width: 13em;
 	height: 2.5em;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	font-family: Pirates;
 	color: white;
 	border: 0.2em;
@@ -129,19 +130,19 @@ body {
 
 .EventNavigationTitle {
 	font-family: Pirates;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	color: white;
 	margin-top: 0.2em;
-	margin-left: 1.9em
+	margin-left: 2.4em
 }
 
 .EventNavigation {
 	font-family: Pirates;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	background-color: rgba(0,0,0,0.8);
 	color: white;
 	width: 13em;
-	height: 31.5em;
+	height: 28.5em;
 	border: 0.2em;
 	border-style: inset;
 	border-top-color: rgb(160,0,0);

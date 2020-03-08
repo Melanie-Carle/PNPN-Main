@@ -68,18 +68,22 @@
 						<div class="EventNavigationTitle">Navigation</div>
 						<div class="col d-flex flex-column">
 							<div class = "EventNavigation">
-								<div style="font-size: 1.1em; padding-left: 0.6em; color: rgb(128,128,128);">Registration</div>
+								<div style="font-size: 1.3em; padding-left: 0.6em; color: rgb(128,128,128);">Registration</div>
 								<div style="font-size: 1.1em; padding-left: 3em;">Pre-Registration</div>
 								<div style="font-size: 1.1em; padding-left: 3em;">Private Biffie</div>
 								<div style="font-size: 1.1em; padding-left: 3em; padding-bottom: 0.5em;">Merchants</div>
 
-								<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Camping</div>
+								<div style="font-size: 1.3em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Camping</div>
 								<div style="font-size: 1.1em; padding-left: 3em;">Map</div>
 								<div style="font-size: 1.1em; padding-left: 3em; padding-bottom: 0.5em;">Land Grants</div>
 
-								<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Event Program</div>
+								<div style="font-size: 1.3em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Event Program</div>
 
-								<div style="font-size: 1.1em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Volunteering</div>
+								<div style="font-size: 1.3em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Volunteering</div>
+
+								<div style="font-size: 1.3em; padding-left: 0.6em; padding-top: 0.5em; color: rgb(128,128,128);">Accomodations</div>
+								<div style="font-size: 1.1em; padding-left: 3em;">Accessibility</div>
+
 							</div>
 						</div>
 					</div>

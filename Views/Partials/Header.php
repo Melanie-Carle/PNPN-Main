@@ -26,8 +26,9 @@
 	     		 			Community
 	      				</a>
 					    <div class="dropdown-menu">
-					    	<a class="dropdown-item" href="#">Crews</a>
-					        <a class="dropdown-item" href="#">Social Media</a>
+					    	<a class="dropdown-item" href="#">New to Pirating?</a>
+					    	<a class="dropdown-item" href="#">Etiquette</a>
+					        <a class="dropdown-item" href="#">Immersion 101</a>
 					    </div>
 	    			</li>
 
@@ -36,21 +37,10 @@
 	     		 			Command Center
 	      				</a>
 					    <div class="dropdown-menu">
-					    	<a class="dropdown-item" href="#">About</a>
-					        <a class="dropdown-item" href="#">Staff</a>
-					        <a class="dropdown-item" href="#">History</a>
-					    </div>
-	    			</li>
-
-	    			<li class="nav-item dropdown">
-	     		 		<a class="nav-link" id="navbardrop" data-toggle="dropdown">
-	     		 			FAQ/Rules
-	      				</a>
-					    <div class="dropdown-menu">
-					    	<a class="dropdown-item" href="#">F.A.Q.</a>
-					        <a class="dropdown-item" href="#">Rules</a>
-					        <a class="dropdown-item" href="#">Etiquette</a>
-					        <a class="dropdown-item" href="#">Theme</a>
+					    	<a class="dropdown-item" href="#">Who's Legacy Bay?</a>
+					        <a class="dropdown-item" href="#">Port Nassau Staff</a>
+					        <a class="dropdown-item" href="#">F.A.Q.</a>
+					        <a class="dropdown-item" href="#">Policies</a>
 					    </div>
 	    			</li>
 
@@ -61,6 +51,7 @@
 					    <div class="dropdown-menu">
 					    	<a class="dropdown-item" href="#">Volunteer</a>
 					        <a class="dropdown-item" href="#">Vendors</a>
+					        <a class="dropdown-item" href="#">Staff</a>
 					    </div>
 	    			</li>
 	    			<li class="nav-item">
@@ -107,32 +98,27 @@
 	      			<li class="nav-item dropdown" id="nav-link2">
 	        			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Community</a>
 	        			<div class="dropdown-menu" aria-labelledby="collapsibleNavbar">
-	        				<a class="dropdown-item" href="#">Crews</a>
-	        				<a class="dropdown-item" href="#">Social Media</a>
+	        				<a class="dropdown-item" href="#">New to Pirating?</a>
+	        				<a class="dropdown-item" href="#">Etiquette</a>
+	        				<a class="dropdown-item" href="#">Immersion 101</a>
 	        			</div>
 	      			</li>
 	      			<li class="nav-item dropdown" id="nav-link2">
 	        			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Command Center</a>
 	        			<div class="dropdown-menu" aria-labelledby="collapsibleNavbar">
-	        				<a class="dropdown-item" href="#">About</a>
-	        				<a class="dropdown-item" href="#">Staff</a>
-	        				<a class="dropdown-item" href="#">History</a>
+	        				<a class="dropdown-item" href="#">Who's Legacy Bay?</a>
+	        				<a class="dropdown-item" href="#">Port Nassau Staff</a>
+	        				<a class="dropdown-item" href="#">F.A.Q.</a>
+	        				<a class="dropdown-item" href="#">Policies</a>
 	        			</div>
 	      			</li>
-	      			<li class="nav-item dropdown" id="nav-link2">
-	        			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">FAQ/Rules</a>
-	        			<div class="dropdown-menu" aria-labelledby="collapsibleNavbar">
-	        				<a class="dropdown-item" href="#">F.A.Q.</a>
-	        				<a class="dropdown-item" href="#">Rules</a>
-	        				<a class="dropdown-item" href="#">Etiquette</a>
-	        				<a class="dropdown-item" href="#">Theme</a>
-	        			</div>
 	      			</li>
 	      			<li class="nav-item dropdown" id="nav-link2">
 	        			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Get Involved</a>
 	        			<div class="dropdown-menu" aria-labelledby="collapsibleNavbar">
 	        				<a class="dropdown-item" href="#">Volunteer</a>
 	        				<a class="dropdown-item" href="#">Vendors</a>
+	        				<a class="dropdown-item" href="#">Staff</a>
 	        			</div>
 	      			</li>
 	      			<li class="nav-item active" id="nav-link2">
