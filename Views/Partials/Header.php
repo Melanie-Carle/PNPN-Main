@@ -17,7 +17,6 @@
 					    <div class="dropdown-menu">
 					        <a class="dropdown-item" href="PortNassau.php">Port Nassau</a>
 					        <a class="dropdown-item" href="TortugaNights.php">Tortuga Nights</a>
-					        <a class="dropdown-item" href="#">Port in the Storm</a>
 					    </div>
 	    			</li>
 
@@ -92,7 +91,6 @@
 	        			<div class="dropdown-menu" aria-labelledby="collapsibleNavbar">
 	        				<a class="dropdown-item" href="PortNassau.php">Port Nassau</a>
 	        				<a class="dropdown-item" href="TortugaNights.php">Tortuga Nights</a>
-	        				<a class="dropdown-item" href="#">Port in the Storm</a>
 	        			</div>
 	      			</li>
 	      			<li class="nav-item dropdown" id="nav-link2">
