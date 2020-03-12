@@ -26,7 +26,7 @@ body {
 /*Navigation bar header*/
 #NavBarName {
 	font-family: Pirates;
-	font-size: 4em;
+	font-size: 3.5em;
 	color: white;
 }
 
@@ -73,21 +73,44 @@ body {
 	text-decoration: none;
 }
 
+
 /*Picture gallery on home page*/
+#HomeCarousel {
+	padding-left: 1em; 
+	padding-right: 1em;
+}
+
+@media (max-width: 992px) {
+	#HomeCarousel {
+	padding-left: 1.2em; 
+	padding-right: 1em;
+	}
+}
+
 #CarouselControls {
 	max-width: 70%
 	max-height: auto;
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
 
+/*About Box on Home Page*/
 #AboutBoxHome {
-	width: 70%;
 	background-color: rgba(0,0,0,0.8);
-	margin-top: 2em;
-
+	margin-top: 1.5em;
+	max-height: auto;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
-.AboutUs {
+@media (max-width: 1200px) {
+	#AboutBoxHome {
+	max-height: auto;
+	margin-left: 1.2em;
+	margin-right: 1em;
+	}
+}
+
+#AboutUs {
 	font-size: 1.2em;
 	font-family: Pirates;
 	color: white;

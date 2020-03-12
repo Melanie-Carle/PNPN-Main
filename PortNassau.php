@@ -11,7 +11,7 @@
 
 	<body>
 		<div class="container-flow">
-			<div class = "row">
+			<div class = "row no-gutters">
 				<div class="col-xl d-flex flex-column" id="EventBanner">
 
 					<!--Event Banner-->
@@ -21,7 +21,7 @@
 			</div>
 
 			<!--Left Navigation Column-->
-			<div class = "row">
+			<div class = "row no-gutters">
 				<div class="col-xl-3 d-flex flex-column" id="EventLeftColumn">
 					<div class = "justify-content-center">
 
@@ -115,7 +115,7 @@
 		</div>
 
 		<div class="container-flow">
-			<div class = "row">
+			<div class = "row no-gutters">
 
 				<!--Defender of Nassau and other stuff-->
 				<div class="col-md d-flex flex-column" id="DefenderofNassau">
@@ -128,7 +128,7 @@
 				</div>
 
 				<!--Blog-->
-				<div class="row">
+				<div class="row no-gutters">
 
 				</div>
 
