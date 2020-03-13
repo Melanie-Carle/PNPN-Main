@@ -136,7 +136,7 @@ body {
 	background-color: rgba(0,0,0,0.8);
 	width: 13em;
 	height: 2.5em;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	font-family: Pirates;
 	color: white;
 	border: 0.2em;
@@ -161,11 +161,11 @@ body {
 
 .EventNavigation {
 	font-family: Pirates;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	background-color: rgba(0,0,0,0.8);
 	color: white;
 	width: 13em;
-	height: 28.5em;
+	height: 28em;
 	border: 0.2em;
 	border-style: inset;
 	border-top-color: rgb(160,0,0);
