@@ -124,19 +124,32 @@ body {
 	margin-left: -0.5em;
 }
 
+@media (max-width: 1200px) {
+	#CarouselControlsEventPage {
+		margin-left: 0em;
+	}
+}
+
 .Countdown {
 	font-family: Pirates;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	color: white;
 	margin-top: 0.2em;
 	margin-left: 2.4em;
 }
 
+@media (max-width: 1200px) {
+	.Countdown {
+		width: 90%;
+		margin-left: 1.5em;
+	}
+}
+
 #CountdownBox {
 	background-color: rgba(0,0,0,0.8);
-	width: 13em;
+	width: 80%;
 	height: 2.5em;
-	font-size: 1.3em;
+	font-size: 1.11em;
 	font-family: Pirates;
 	color: white;
 	border: 0.2em;
@@ -148,23 +161,38 @@ body {
 	padding-top: 0.25em;
 	margin-left: 1.8em;
 	text-align: center;
+	margin-bottom: 0em;
 
+}
+
+@media (max-width: 1200px) {
+	#CountdownBox {
+		width: 90%;
+		margin-left: 1.5em;
+	}
 }
 
 .EventNavigationTitle {
 	font-family: Pirates;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	color: white;
 	margin-top: 0.2em;
 	margin-left: 2.4em
 }
 
+@media (max-width: 1200px) {
+	.EventNavigationTitle {
+		width: 90%;
+		margin-left: 1.5em;
+	}
+}
+
 .EventNavigation {
 	font-family: Pirates;
-	font-size: 1.3em;
+	font-size: 1.11em;
 	background-color: rgba(0,0,0,0.8);
 	color: white;
-	width: 13em;
+	width: 80%;
 	height: 28em;
 	border: 0.2em;
 	border-style: inset;
@@ -173,8 +201,15 @@ body {
   	border-right-color: rgb(110,0,0);
   	border-bottom-color: rgb(110,0,0);
 	padding-top: 0.3em;
-	margin-left: 1.8em;
+	margin-left: 2em;
 	
+}
+
+@media (max-width: 1200px) {
+	.EventNavigation {
+		width: 90%;
+		margin-left: 1.5em;
+	}
 }
 
 #DefenderofNassau {
@@ -186,10 +221,16 @@ body {
   	border-left-color: rgb(160,0,0);
   	border-right-color: rgb(110,0,0);
   	border-bottom-color: rgb(110,0,0);
-	width: 80%;
+	width: 85%;
 	margin-top: 1em;
 	margin-left: 4em;
 	margin-right: 4em;
+}
+
+@media (max-width: 1200px) {
+	#DefenderofNassau {
+		width: 100%;
+	}
 }
 
 .Defender {

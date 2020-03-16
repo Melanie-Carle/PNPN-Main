@@ -19,7 +19,9 @@
 
 				</div>
 			</div>
-
+		</div>
+		
+		<div class="container-flow">
 			<!--Left Navigation Column-->
 			<div class = "row no-gutters">
 				<div class="col-xl-3 d-flex flex-column" id="EventLeftColumn">
@@ -27,7 +29,7 @@
 
 						<!--Countdown-->
 						<div class="Countdown">Countdown</div>
-						<div class="col d-flex flex-column">
+						<div class="col">
 							<div id="CountdownBox">
 								<div>
 									<div id="NassauEventCountdown"></div>
@@ -66,7 +68,7 @@
 
 						<!--Navigation-->
 						<div class="EventNavigationTitle">Navigation</div>
-						<div class="col d-flex flex-column">
+						<div class="col">
 							<div class = "EventNavigation">
 								<div style="font-size: 1.3em; padding-left: 0.6em; color: rgb(128,128,128);">Registration</div>
 								<div style="font-size: 1.1em; padding-left: 3em;">Pre-Registration</div>
@@ -118,7 +120,7 @@
 			<div class = "row no-gutters">
 
 				<!--Defender of Nassau and other stuff-->
-				<div class="col-md d-flex flex-column" id="DefenderofNassau">
+				<div class="col-md d-flex flex-column justify-content-center" id="DefenderofNassau">
 					<div class="Defender">Defender of Nassau</div>
 					<div class="DefenderComp">Contenders coming soon!</div>
 				</div>
