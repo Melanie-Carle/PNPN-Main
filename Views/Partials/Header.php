@@ -49,7 +49,7 @@
 	      				</a>
 					    <div class="dropdown-menu">
 					    	<a class="dropdown-item" href="Volunteer.php">Volunteer</a>
-					        <a class="dropdown-item" href="Merchants.php">Merchants</a>
+					        <a class="dropdown-item" href="Merchanting.php">Merchanting</a>
 					        <a class="dropdown-item" href="Staff.php">Staff</a>
 					    </div>
 	    			</li>
@@ -115,7 +115,7 @@
 	        			<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">Get Involved</a>
 	        			<div class="dropdown-menu" aria-labelledby="collapsibleNavbar">
 	        				<a class="dropdown-item" href="Volunteer.php">Volunteer</a>
-	        				<a class="dropdown-item" href="Merchants.php">Merchants</a>
+	        				<a class="dropdown-item" href="Merchanting.php">Merchanting</a>
 	        				<a class="dropdown-item" href="Staff.php">Staff</a>
 	        			</div>
 	      			</li>
