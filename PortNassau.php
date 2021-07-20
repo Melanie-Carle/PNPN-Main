@@ -38,7 +38,7 @@
 						</div>
 						<script>
 							// Set the date we're counting down to
-							var countDownDate = new Date("July 16, 2020 08:00:").getTime();
+							var countDownDate = new Date("July 15, 2022 08:00:").getTime();
 
 							// Update the count down every 1 second
 							var x = setInterval(function() {
@@ -122,7 +122,7 @@
 				<!--Defender of Nassau and other stuff-->
 				<div class="col-md d-flex flex-column justify-content-center" id="DefenderofNassau">
 					<div class="Defender">Defender of Nassau</div>
-					<div class="DefenderComp">Contenders coming soon!</div>
+					<div class="DefenderComp">Contenders coming June 2022</div>
 				</div>
 			</div>
 		</div>
